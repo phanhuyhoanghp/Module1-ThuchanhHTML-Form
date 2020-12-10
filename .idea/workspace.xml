@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc7595f6-de87-4b3f-b852-24e747b08665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TaoCV.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TaoCV.html" beforeDir="false" afterPath="$PROJECT_DIR$/TaoCV.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
       <updated>1607569574714</updated>
       <workItem from="1607569575789" duration="5626000" />
       <workItem from="1607582849487" duration="72000" />
-      <workItem from="1607582939228" duration="1351000" />
+      <workItem from="1607582939228" duration="1698000" />
     </task>
     <servers />
   </component>
