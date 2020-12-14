@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Market Research Survey</title>
+</head>
+<body>
+<h2>Market Research Survey</h2>
+<h4>Please take a few moments to complete this satisfaction survey.</h4>
+<form>
+    <p>What is your age range?</p>
+    <select style="width: 200px">
+        <option value="18-24">18-24</option>
+        <option value="25-34">25-34</option>
+        <option value="35-50">35-50</option>
+        <option value="50+">50+</option>
+    </select>
+</form>
+<form>
+    <p>What is your yearly income range?</p>
+    <select style="width: 200px">
+        <option value="0-25000$">0-25000$</option>
+        <option value="25000-50000">25000-50000</option>
+        <option value="50000-100000">50000-100000</option>
+        <option value="100000+">100000+</option>
+    </select>
+</form>
+<form>
+    <p>Gender Identity</p>
+    <input name="Gender Identity" type="radio" value="Male">Male<br>
+    <input name="Gender Identity" type="radio">Female<br>
+    <input name="Gender Identity" type="radio">Nonbinary<br>
+    <input name="Gender Identity" onclick="other_()" type="radio">Other <br>
+    <input name="Gender Identity" type="text">
+    <p id="a"></p>
+</form>
+<form>
+    <p>Which of the following products have your purchased in the last 2 months. Please check all that apply.
+    </p>
+    <input name="product_" type="checkbox" >Product 1<br>
+    <input name="product_" type="checkbox" >Product 2<br>
+    <input name="product_" type="checkbox" >Product 3<br>
+</form>
+<form>
+    <p>How often would you use our new product?</p>
+    <input name="a1" type="radio" value="Daily">Daily<br>
+    <input name="a1" type="radio" value="Weekly">Weekly<br>
+    <input name="a1" type="radio" value="Monthly">Monthly<br>
+</form>
+<script>
+     function other_(){
+         debugger
+         document.getElementById('a').innerHTML = 'Maximum of 250 characters.';
+     }
+</script>
+</body>
+</html>
