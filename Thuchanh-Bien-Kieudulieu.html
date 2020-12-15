@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thực hành biến kiểu dữ liệu</title>
+</head>
+<body>
+<h2 style="color: blue">Bài 1: Tính điểm </h2>
+<input type="number" id="diemly" placeholder="Nhập điểm lý">
+<input type="number" id="diemhoa" placeholder="Nhập điểm hóa">
+<input type="number" id="diemsinh" placeholder="Nhập điểm sinh"><br><br>
+<p id="tinhdiem"> </p>
+<button onclick="Tinh()" style="height: 25px; width: 170px; background-color: darkseagreen">Tính</button>
+<script>
+function Tinh(){
+    let ly=parseInt(document.getElementById("diemly").value);
+    let hoa=parseInt(document.getElementById("diemhoa").value);
+    let sinh=parseInt(document.getElementById('diemsinh').value);
+    if (ly<0||hoa<0||sinh<0||ly>10||hoa>10||sinh>10){
+        document.getElementById('tinhdiem').innerHTML='Bạn nhập sai điểm rồi'
+    } else {
+        let total=ly+hoa+sinh;
+        let tb=total/3;
+        let content='Tổng điểm là: '+total+'<br>' +' Điểm trung bình là: '+tb
+        document.getElementById("tinhdiem").innerHTML=content
+    }
+}
+</script>
+<br><br><br>
+<h2 style="color: blue">Bài 2: Chuyển độ C sang độ F </h2>
+<p>Nhập nhiệt độ</p>
+<input id="nhietdo" type="number" placeholder="Nhập nhiệt độ">&nbsp;
+<p>Chuyển đổi sang độ F</p>
+<input id="doF">&nbsp;
+<button onclick="convertF()" style="background-color: aqua; width: 170px; height: 25px">Tính</button>
+<br><br>
+<script>
+    function convertF(){
+        let c=document.getElementById('nhietdo').value;
+        let f=c*9/5+32;
+        document.getElementById('doF').value= f
+    }
+</script>
+
+<h2 style="color: blue">Bài 3+4: Tính chu vi, diện tích hình tròn </h2>
+<p>Nhập bán kính</p>
+<input id="radius" type="number" placeholder="Nhập bán kính"><br>
+<button onclick="" style="background-color: blue">Tính</button>
+</body>
+</html>

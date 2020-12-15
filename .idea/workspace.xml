@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc7595f6-de87-4b3f-b852-24e747b08665" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MarketResearchSurvey.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TH1/aa.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Thuchanh-Cautrucdieukien" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -46,7 +45,7 @@
       <workItem from="1607569575789" duration="5626000" />
       <workItem from="1607582849487" duration="72000" />
       <workItem from="1607582939228" duration="10096000" />
-      <workItem from="1607917168667" duration="4662000" />
+      <workItem from="1607917168667" duration="5466000" />
     </task>
     <servers />
   </component>
