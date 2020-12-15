@@ -26,7 +26,7 @@ function Tinh(){
     }
 }
 </script>
-<br><br><br>
+<p>---------------------------------------------------------------------------------------------------------------------------------------------</p>
 <h2 style="color: blue">Bài 2: Chuyển độ C sang độ F </h2>
 <p>Nhập nhiệt độ</p>
 <input id="nhietdo" type="number" placeholder="Nhập nhiệt độ">&nbsp;
@@ -41,10 +41,25 @@ function Tinh(){
         document.getElementById('doF').value= f
     }
 </script>
-
+<p>-----------------------------------------------------------------------------------------------------------------------------------------------</p>
 <h2 style="color: blue">Bài 3+4: Tính chu vi, diện tích hình tròn </h2>
 <p>Nhập bán kính</p>
-<input id="radius" type="number" placeholder="Nhập bán kính"><br>
-<button onclick="" style="background-color: blue">Tính</button>
+<input id="radius" type="number" placeholder="Nhập bán kính"><br><br>
+<input id="dt">&nbsp;
+<button onclick="area()" style="background-color: blue">Tính</button><br><br>
+<input id="cv">&nbsp;
+<button onclick="perimeter()" style="background-color: blue">Tính</button>
+<script>
+    function area(){
+        let radius=parseInt(document.getElementById('radius').value);
+        let area=Math.PI*radius*radius;
+        document.getElementById('dt').value=area;
+    }
+    function perimeter(){
+        let radius=parseInt(document.getElementById('radius').value);
+        let per=Math.PI*radius*2;
+        document.getElementById('cv').value=per
+    }
+</script>
 </body>
 </html>
